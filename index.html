@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ATENDE AGENDA AI 24: solução de atendimento e agendamentos inteligentes para empresas.">
+  <title>ATENDE AGENDA AI 24 | Atendimento inteligente</title>
+  <style>
+    :root {
+      --bg: #080d20;
+      --panel: #121a35;
+      --purple: #914cff;
+      --pink: #e746c4;
+      --blue: #4b9dff;
+      --text: #f6f7ff;
+      --muted: #b9c2df;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container {
+      width: min(1100px, 90%);
+      margin: auto;
+    }
+    header {
+      padding: 22px 0;
+      border-bottom: 1px solid #ffffff18;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .brand {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: .4px;
+    }
+    .brand span { color: var(--purple); }
+    .nav-links {
+      display: flex;
+      gap: 22px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .hero {
+      padding: 100px 0 90px;
+      text-align: center;
+      background:
+        radial-gradient(ellipse at 50% 10%, #5020a755, transparent 60%),
+        var(--bg);
+    }
+    .tag {
+      display: inline-block;
+      padding: 8px 16px;
+      border: 1px solid #914cff88;
+      border-radius: 40px;
+      color: #d6baff;
+      font-size: 13px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      max-width: 850px;
+      margin: 0 auto 22px;
+      font-size: clamp(36px, 6vw, 66px);
+      line-height: 1.12;
+    }
+    .gradient {
+      background: linear-gradient(90deg, var(--blue), var(--purple), var(--pink));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .hero p {
+      max-width: 700px;
+      margin: 0 auto 32px;
+      font-size: 19px;
+      color: var(--muted);
+    }
+    .btn {
+      display: inline-block;
+      padding: 14px 26px;
+      border-radius: 12px;
+      background: linear-gradient(110deg, var(--purple), var(--pink));
+      color: white;
+      font-weight: bold;
+    }
+    section { padding: 70px 0; }
+    h2 {
+      font-size: clamp(28px, 4vw, 40px);
+      text-align: center;
+      margin: 0 0 15px;
+    }
+    .intro {
+      color: var(--muted);
+      text-align: center;
+      max-width: 690px;
+      margin: 0 auto 38px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      padding: 28px;
+      background: var(--panel);
+      border: 1px solid #ffffff13;
+      border-radius: 18px;
+    }
+    .card .emoji { font-size: 32px; }
+    .card h3 { margin: 16px 0 8px; }
+    .card p { color: var(--muted); margin: 0; }
+    .steps {
+      max-width: 760px;
+      margin: auto;
+      display: grid;
+      gap: 16px;
+    }
+    .step {
+      padding: 22px;
+      border-radius: 14px;
+      background: var(--panel);
+    }
+    .step strong { color: #bd91ff; }
+    .contact {
+      text-align: center;
+      background: linear-gradient(160deg, #171036, #0c1734);
+      border-radius: 24px;
+      padding: 50px 24px;
+    }
+    .contact p {
+      color: var(--muted);
+      max-width: 600px;
+      margin: 15px auto 25px;
+    }
+    footer {
+      border-top: 1px solid #ffffff18;
+      padding: 30px 0;
+      color: var(--muted);
+      text-align: center;
+      font-size: 13px;
+    }
+    @media (max-width: 600px) {
+      .hero { padding: 70px 0; }
+      .nav-links { gap: 14px; }
+      section { padding: 50px 0; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav class="container">
+    <a class="brand" href="#">ATENDE AGENDA <span>AI 24</span></a>
+    <div class="nav-links">
+      <a href="#recursos">Recursos</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="container">
+      <div class="tag">Tecnologia para negócios</div>
+      <h1>Seu atendimento mais inteligente, <span class="gradient">24 horas por dia.</span></h1>
+      <p>
+        O ATENDE AGENDA AI 24 é uma solução em desenvolvimento
+        para automatizar atendimentos, organizar agendas e ajudar
+        empresas a atender seus clientes com mais eficiência.
+      </p>
+      <a class="btn" href="#recursos">Conheça a solução</a>
+    </div>
+  </div>
+
+  <section id="recursos">
+    <div class="container">
+      <h2>Uma solução para simplificar sua rotina</h2>
+      <p class="intro">
+        Desenvolvida inicialmente para barbearias e salões de beleza,
+        com possibilidades de expansão para outros segmentos.
+      </p>
+
+      <div class="grid">
+        <article class="card">
+          <div class="emoji">🤖</div>
+          <h3>Atendimento inteligente</h3>
+          <p>Integração planejada com WhatsApp para orientar clientes e facilitar solicitações.</p>
+        </article>
+        <article class="card">
+          <div class="emoji">📅</div>
+          <h3>Agendamentos organizados</h3>
+          <p>Gerenciamento de serviços, profissionais e horários em um só sistema.</p>
+        </article>
+        <article class="card">
+          <div class="emoji">⏰</div>
+          <h3>Disponibilidade de horários</h3>
+          <p>Consulta de horários para ajudar a evitar conflitos na agenda.</p>
+        </article>
+        <article class="card">
+          <div class="emoji">📊</div>
+          <h3>Gestão do negócio</h3>
+          <p>Painel administrativo para acompanhar informações e organizar a operação.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="como-funciona">
+    <div class="container">
+      <h2>Como funciona</h2>
+      <p class="intro">Uma experiência simples para estabelecimentos e clientes.</p>
+      <div class="steps">
+        <div class="step"><strong>01.</strong> O estabelecimento configura seus profissionais e serviços.</div>
+        <div class="step"><strong>02.</strong> O sistema organiza os horários disponíveis.</div>
+        <div class="step"><strong>03.</strong> A integração com WhatsApp permitirá automatizar conversas e solicitações.</div>
+        <div class="step"><strong>04.</strong> A equipe acompanha os agendamentos pelo painel.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="container">
+      <div class="contact">
+        <h2>Conheça o ATENDE AGENDA AI 24</h2>
+        <p>
+          Estamos desenvolvendo uma solução de tecnologia para
+          modernizar o atendimento e a gestão de agendamentos.
+          Entre em contato para saber mais sobre o projeto.
+        </p>
+        <p>Contato comercial em configuração.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    © 2026 ATENDE AGENDA AI 24.
+    Projeto de tecnologia para atendimento e agendamentos.
+  </div>
+</footer>
+
+</body>
+</html>
